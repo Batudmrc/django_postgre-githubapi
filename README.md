@@ -1,5 +1,5 @@
 # django_postgre-githubapi
-Django project that gives you GitHub user's information (Using GitHub RestAPI V3) you choose and save their information on Postgre database
+Django project that gives you GitHub user's information (Using GitHub RestAPI V3) you choose and store their information on Postgre database.
 
 
 
