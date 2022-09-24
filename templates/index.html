@@ -31,6 +31,7 @@
             </form>
         </div>
         <br>
+        <!--- Showing Profile Information -->
         {% if profile  %} <div id="profile">
             
             <div class="card card-body mb-3">
@@ -57,6 +58,8 @@
                   <h3 class="page-heading mb-3">Latest Repos</h3>
                   <div id="repos" style ="margin-bottom: 100px;">
 
+                  <!--- Showing Repos -->
+
                     {% for repo in repos %}
 
                     
@@ -79,7 +82,8 @@
                         </div> 
                     {% endfor %}
                                
-                    <!--- Repoların Gösterileceği Kısım" -->
+                  <!--- Showing Repos -->
+                    
                   </div> 
             
             
